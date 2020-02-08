@@ -1,4 +1,3 @@
-# content of 
 def func(x):
     return x + 1
 
