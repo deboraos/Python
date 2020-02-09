@@ -1,9 +1,10 @@
-k = int(input("Digite um número inteiro: "))
-i = 2
+def soma(num1, num2, num3):
+    return num1 + num2 + num3
 
-while (i * i <= k):
-    if (k % i == 0):
-        print(False)
-    else:
-        i = i + 1
-print(i)
+def main():
+    n1 = float(input("Primeiro número = "))
+    n2 = float(input("Segundo número = "))
+    n3 = float(input("Terceiro número = "))
+    print (soma(n1, n2, n3))
+
+main()
