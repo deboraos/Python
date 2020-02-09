@@ -38,7 +38,6 @@ def campeonato():
 def partida():
     n = int(input("Quantas peças? "))
     m = int(input("Limite de peças por jogada? "))
-
     turnoComputador = False
 
     if (n % (m+1) == 0):
@@ -69,6 +68,7 @@ def partida():
         else:
             if (n != 0):
                 print("Agora restam", n, "peças no tabuleiro.\n")
+
     if (turnoComputador):
         print("\nFim do jogo! Você ganhou!")
     else:
