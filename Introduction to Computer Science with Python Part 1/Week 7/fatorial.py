@@ -1,9 +1,12 @@
 n = 1
 
+def fatorial (n):
+    i = fat = 1
+    while (i <= n):
+        fat = fat * i
+        i = i + 1
+    print(fat)
+
 while (n > 0):
     n = int(input("Digite um numero inteiro positivo (0 para sair): "))
-    i = n - 1
-    while (i > 0):
-        n = n * i
-        i = i - 1
-    print(n)
+    fatorial(n)
