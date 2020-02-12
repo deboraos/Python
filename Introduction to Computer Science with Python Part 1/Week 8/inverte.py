@@ -11,5 +11,5 @@ while (n != 0):
 tam = len(lista) - 1
 
 while (tam >= 0):
-    print (lista[tam], end =" ")
+    print (lista[tam])
     tam = tam - 1
