@@ -2,12 +2,13 @@ lista = []
 n = 1
 
 while (n != 0):
-    n = int(input("Digite um número (0 para sair): "))
-    lista.append(n)
+    n = int(input("Digite um número: "))
+    if (n != 0):
+        lista.append(n)
+    else:
+        break
 
 tam = len(lista) - 1
-
-print(len(lista))
 
 while (tam >= 0):
     print (lista[tam], end =" ")
