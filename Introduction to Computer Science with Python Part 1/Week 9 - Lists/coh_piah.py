@@ -52,7 +52,6 @@ def n_palavras_unicas(lista_palavras):
         else:
             freq[p] = 1
             unicas += 1
-
     return unicas
 
 def n_palavras_diferentes(lista_palavras):
@@ -64,7 +63,6 @@ def n_palavras_diferentes(lista_palavras):
             freq[p] += 1
         else:
             freq[p] = 1
-
     return len(freq)
 
 def compara_assinatura(as_a, as_b):
@@ -72,7 +70,6 @@ def compara_assinatura(as_a, as_b):
     soma = 0
     for i in range(0,6):
         soma = soma + (abs(as_a[i] - as_b[i]))
-
     return soma / 6
 
 def extrai_frases(sentencas):
@@ -131,7 +128,6 @@ def calcula_assinatura(texto):
     sal = calcula_tamanho_medio_sentencas(conjSentencas)
     sac = calcula_complexidade_sentenca(conjFrases, len(conjSentencas))
     pal = calcula_tamanho_medio_frase(conjFrases)
-
     return [wal, ttr, hlr, sal, sac, pal]
 
 def avalia_textos(textos, ass_cp):
