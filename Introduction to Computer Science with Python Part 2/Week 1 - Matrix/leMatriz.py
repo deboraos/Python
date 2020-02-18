@@ -3,11 +3,11 @@ def imprimeMatriz(m):
     c = len(m[0])
     for i in range(l):
         for j in range(c):
-            if(j == c - 1):
-                print("%d" %m[i][j])
-            else:
-                print("%d" %m[i][j], end = " ")
-        
+            print(matriz[i][j], end = "")
+        else:
+            print(matriz[i][j], end = " ")
+    print()
+
 def criaMatriz(linhas, colunas):
     matriz = []
     for i in range(linhas):

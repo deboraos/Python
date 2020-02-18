@@ -4,6 +4,7 @@ def imprime_matriz(matriz):
     for i in range(l):
         for j in range(c):
             if(j == c - 1):
-                print("%d" %matriz[i][j])
+                print(matriz[i][j], end = "")
             else:
-                print("%d" %matriz[i][j], end = " ")
+                print(matriz[i][j], end = " ")
+        print()
