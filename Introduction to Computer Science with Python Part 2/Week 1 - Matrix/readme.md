@@ -15,5 +15,5 @@ Dica: lembre da primeira parte do curso, na semana 7! A função "print" em gera
 ## Exercício 4: Matrizes multiplicáveis
 Duas matrizes são multiplicáveis se o número de colunas da primeira é igual ao número de linhas da segunda. Escreva a função sao_multiplicaveis(m1, m2) que recebe duas matrizes como parâmetro e devolve True se as matrizes forem multiplicavéis (na ordem dada) e False caso contrário.
 
-[Matrizes](https://panda.ime.usp.br/aulasPython/static/aulasPython/aula11.html)
-[Funções com matrizes](https://panda.ime.usp.br/aulasPython/static/aulasPython/aula12.html)
+- [Matrizes](https://panda.ime.usp.br/aulasPython/static/aulasPython/aula11.html)
+- [Funções com matrizes](https://panda.ime.usp.br/aulasPython/static/aulasPython/aula12.html)
