@@ -1,16 +1,17 @@
-Vimos até agora como armazenar e manipular os dados na memória, usando estruturas como listas e matrizes, na primeira parte do curso. Tão importante quanto saber armazenar os dados é conseguir organizá-los e recuperá-los quando necessário. Nessa semana iremos estudar alguns algoritmos de busca e ordenação.
+Nessa semana iremos ver mais um pouco sobre algoritmos de busca e ordenação, além de testes automatizados.
 
-## Exercício 1: Lista ordenada
-Escreva a função ordenada(lista), que recebe uma lista com números inteiros como parâmetro e devolve o booleano True se a lista estiver ordenada e False se a lista não estiver ordenada.
+## Exercício 1: Busca binária
+Implemente a função busca(lista, elemento), que busca um determinado elemento em uma lista e devolve o índice correspondente à posição do elemento encontrado. Utilize o algoritmo de busca binária. Nos casos em que o elemento buscado não existir na lista, a função deve devolver o booleano False.
 
-## Exercício 2: Busca sequencial
-Implemente a função busca(lista, elemento), que busca um determinado elemento em uma lista e devolve o índice correspondente à posição do elemento encontrado. Utilize o algoritmo de busca sequencial. Nos casos em que o elemento buscado não existir na lista, a função deve devolver o booleano False.
+Além de devolver o índice correspondente à posição do elemento encontrado, sua função deve imprimir cada um dos índices testados pelo algoritmo
 
-## Exercício 3: Gerando listas grandes
-Escreva a função lista_grande(n), que recebe como parâmetro um número inteiro n e devolve uma lista contendo n números inteiros aleatórios.
+## Exercício 2: Ordenação com bubble sort
+Implemente a função bubble_sort(lista), que recebe uma lista com números inteiros como parâmetro e devolve esta lista ordenada. Utilize o algoritmo bubble sort.
 
-## Exercício 4: Ordenação com selection sort
-Implemente a função ordena(lista), que recebe uma lista com números inteiros como parâmetro e devolve esta lista ordenada em ordem crescente. Utilize o algoritmo selection sort.
+Além de devolver uma lista ordenada, ao longo do processamento sua função deve imprimir o estado atual da lista toda vez que fizer uma alteração em seus elementos.
+
+## Exercício 3: Ordenação com insertion sort
+Implemente a função insertion_sort(lista), que recebe uma lista com números inteiros como parâmetro e devolve esta lista ordenada. Utilize o algoritmo insertion sort.
 
 ## Links Relacionados
 - [Busca Sequencial e Binária](https://panda.ime.usp.br/aulasPython/static/aulasPython/aula23.html)
