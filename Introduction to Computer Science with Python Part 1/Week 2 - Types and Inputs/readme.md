@@ -15,10 +15,10 @@ Dica: lembre-se que um quadrado tem quatro lados iguais, logo só é necessário
 Faça um programa em Python que receba quatro notas, calcule e imprima a média aritmética. Observe o exemplo abaixo:
 
 Entrada de Dados:
-Digite a primeira nota: 4
-Digite a segunda nota: 5
-Digite a terceira nota: 6
-Digite a quarta nota: 7
+Digite a primeira nota: 4<br />
+Digite a segunda nota: 5<br />
+Digite a terceira nota: 6<br />
+Digite a quarta nota: 7<br />
 
 Saída de Dados:
 A média aritmética é 5.5
