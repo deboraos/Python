@@ -31,3 +31,6 @@ Implemente a função fibonacci(n), que recebe como parâmetro um número inteir
 Implemente a função fatorial(x), que recebe como parâmetro um número inteiro e devolve um número inteiro correspondente ao fatorial de x.
 
 Sua solução deve ser implementada utilizando recursão.
+
+## Link Relacionados
+- [Sorting Algorithms Animations](https://www.toptal.com/developers/sorting-algorithms)
