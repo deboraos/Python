@@ -33,8 +33,8 @@ O programa deve receber os parâmetros a, b, e c da equação ax² + bx + c, res
 
 Além disso, no caso de existirem 2 raízes reais, elas devem ser impressas em ordem crescente.
 
-Exemplos:
-as raízes da equação são 1.0 e 2.0
+Exemplos:<br />
+as raízes da equação são 1.0 e 2.0<br />
 as raízes da equação são -2.0 e 0.0
 
 ## Links Relacionados

@@ -28,6 +28,7 @@ Diversos estudos foram compilados e hoje se conhece precisamente a assinatura de
 - Tamanho médio de sentença é a soma dos números de caracteres em todas as sentenças dividida pelo número de sentenças (os caracteres que separam uma sentença da outra não devem ser contabilizados como parte da sentença).
 - Complexidade de sentença é o número total de frases divido pelo número de sentenças.
 - Tamanho médio de frase é a soma do número de caracteres em cada frase dividida pelo número de frases no texto (os caracteres que separam uma frase da outra não devem ser contabilizados como parte da frase).
+
 Após calcular esses valores para cada texto, você deve comparar com a assinatura fornecida para os infectados por COH-PIAH. O grau de similaridade entre dois textos, aa e bb, é dado pela fórmula:
 
 Sab = (Somatorio(6, i=1) ||fi,a - fi,b||)/6
