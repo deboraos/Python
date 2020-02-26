@@ -1,4 +1,4 @@
-Nessa semana, iremos aprender sobre recursão e como implementá-la.
+Variáveis, Tipos e Estrutura de Dados
 
 ## Exercício 1:
 Imprima na tela os números de 1 a 10. Use uma lista para armazenar os números.
