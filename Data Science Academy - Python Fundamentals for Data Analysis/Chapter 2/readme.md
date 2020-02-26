@@ -30,3 +30,9 @@ Crie uma lista de 4 elementos. O primeiro elemento deve ser uma string, o segund
 ## Exercício 10:
 Considere a string abaixo. Imprima na tela apenas os caracteres da posição 1 a 18.
 frase = 'Cientista de Dados é o profissional mais sexy do século XXI'
+
+## Link Relacionados
+- [Documentação Python](https://docs.python.org/release/3.6.4/Python)
+- [DEV](https://www.python.org/dev/)
+- [Python ou R Para Análise de Dados](http://www.cienciaedados.com/r-ou-python-para-analise-de-dados/)
+- [Big Data Real-Time Analytics com Python e Spark](https://www.toptal.com/developers/sorting-algorithmshttps://www.datascienceacademy.com.br/pages/curso-big-data-com-python-e-spark)
